@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Logamaliya</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav"> 
+      <div class="logo" style="color: rgb(220, 28, 28);">Logamaliya</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">skills</a></li>
+          <li><a href="#Intrests" onclick="toggleMenu()">Intrests</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="Home">
+      <div class="section__pic-container">
+        <img src="./img/cover image.jpeg" alt="Logamaliya picture" />
+      </div>
+      
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Logamaliya Kannan</h1>
+        <p class="section__text__p2">Love to work on Media</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./img/resume.docx')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+       
+       
+       
+        </div>
+      </div>
+    </section>
+    <section id="about">      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./img/about image.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+           <p>Hi , I love to explore new skills and love to do creative things.<br> <br>I have graduated my bachelor's degree in dr.Mgr university and currently doing my postgraduate master of arts in psychology in IGNOU.</p>
+            </div>
+          </section>
+
+          
+    <section class="skills" id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="section__text__p1">Skills </h1>
+     
+      <div class="box-container">
+        <!-- <div class="box"> -->
+               <div class="box">
+                <p>Listening comprehension</p>
+               </div>
+               <div class="box">
+                <p>Creative and Innovative</p>
+               </div>
+               <div class="box">
+                <p>Communication</p>
+               </div>
+              </section>
+
+              
+          
+    <!-- Intrests -->
+  
+        <section class="Intrests" id="Intrests">
+            <p class="section__text__p1">Find My</p>
+            <h1 class="section__text__p1">Intrests </h1>
+        <div class="box-container">
+          
+            <div class="box">
+                <p>Script Writing</p>
+            </div>
+            <div class="box">
+                <p>Photoshoots</p>
+            </div>
+            <div class="box">
+                <p>Modeling</p>
+            </div>
+          </section>
+
+<!-- contact -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="content">
+        <!-- <h3 class="title">contact Me</h3> -->
+        <div class="contact-upper-container">
+            <div class="contact-info-container"></div>
+            <h3><i class="fas fa-envelope" ></i>logamaliyakannan03@gmail.com </h3>
+            <h3><i class="fas fa-phone"></i>6381189521</h3>
+            <h3><i class="fas fa-map-marker-alt"></i>Chennai,Tamil Nadu </h3>
+        </div>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#Intrests">Intrests</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Nivetha Annadurai. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
